@@ -114,14 +114,14 @@ def print_Tree(node,level):
 
 
         if left != None:
-            for i in range(0, 4 * l):
+            for i in range(0, 5 * l):
                 print(' ', end='')
-            print('|___',end='')
+            print('|__L_',end='')
             print_Tree(left,l+1)
         if right != None:
-            for i in range(0, 4 * l):
+            for i in range(0, 5 * l):
                 print(' ', end='')
-            print('|___',end='')
+            print('|__R_',end='')
             print_Tree(right,l+1)
 
 
